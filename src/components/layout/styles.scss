@@ -1,0 +1,53 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  background-color: #282c34;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #ee5533;
+  color: white;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 13px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+hr {
+  margin: 30px;
+}
+
+.menu-item {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 4fr 2fr;
+
+  div {
+    padding: 10px;
+  }
+}
+
+.content-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bg-black {
+  background-color: #282c34;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-white {
+  color: white;
+}
